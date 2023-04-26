@@ -32,7 +32,7 @@ _italic_
 Markup-_especially_italic_text_-can easily be overused.
 _Why_use_scoped__ptr_? Use plain ***ptr* instead.
 
-Visit [the Go home page](https://golang.org/).
+Visit [[the Go home page][https://golang.org/]].
 
 * Test present command invocations - with LN
 
@@ -50,7 +50,7 @@ Using command `.code`
 
 .code hello/hello.go
 
-8 Test present command invocations - Partial Code
+* Test present command invocations - Partial Code
 
 *hello.go*
 
