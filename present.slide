@@ -1,0 +1,138 @@
+# Title of Talk
+Subtitle of Talk
+24 Apr 2023
+Tags: foo, bar, baz
+Summary: This is a great document you want to read.
+OldURL: former-path-for-this-doc
+
+David Hintelmann
+davidhin@mac.com
+example.com
+@twitter_name
+
+## Title of Slide or Section (must begin with ##)
+
+Some Text
+
+### Subsection {#anchor}
+
+- bullets
+- more bullets
+- a bullet continued
+  on the next line
+
+Some More text
+
+	Preformatted text (code block)
+	is indented (by one tab, or four spaces)
+
+Further Text, including command invocations.
+
+## Section 2: Example formatting {#fmt}
+
+Formatting:
+
+_italic_
+// A comment that is completely ignored.
+: Speaker notes.
+**bold**
+`program`
+Markup-_especially italic text_- can easily be overused.
+_Why use scoped\_ptr_? Use plain **\*ptr** instead.
+
+Visit [the Go home page](https://golang.org/).
+
+## Another slide - Failure
+
+some text
+
+### Heading
+
+more text
+
+#### Heading One
+
+even more text
+
+## Test present command invocations - with LN
+
+Using command `.play -numbers`
+
+*hello.go*
+
+.play -numbers hello/hello.go
+
+## Test present command invocations - Full Code
+
+Using command `.code`
+
+*hello.go*
+
+.code hello/hello.go
+
+## Test present command invocations - Partial Code
+
+*hello.go*
+
+.code hello/hello.go /^//START/,/^//END/ HL12
+
+## Test present command invocations - Editable
+
+Using command `.code -edit`
+
+*hello.go*
+
+.code -edit hello/hello.go
+
+## Test present command invocations - Line Numbers
+
+Using command `.code -numbers`
+
+*hello.go*
+
+.code -numbers hello/hello.go
+
+## ...continued - same as last slide but now with background image
+
+.background Golang-Logo.jpg
+Using command `.code -numbers`
+
+*hello.go*
+
+.code -numbers hello/hello.go
+
+: Presenter notes (first paragraph) sdhgskdjhgksljdhgksdjlhgksdljghksdjlghskdljfghsdkjflghsdkjgh
+: Presenter notes (second paragraph)
+
+## Image - Resized
+
+`.image Golang-Logo.jpg 275 229`
+
+.image Golang-Logo.jpg 275 229
+
+.caption _Gopher_ by [[https://instagram.com/reneefrench][Renee French]]
+
+## Image - Aspect Ratio
+
+`.image Golang-Logo.jpg 275 _`
+
+.image Golang-Logo.jpg 275 _
+
+.caption _Gopher_ by [[https://instagram.com/reneefrench][Renee French]]
+
+## Image - Push Image to Bottom
+
+Create a list to force the gopher to the bottom:
+
+1. item one
+2. item two
+3. item three
+
+`create a code block just because.`
+
+Still need to force the gopher down more.
+
+- item four
+- item five
+
+.image Golang-Logo.jpg
