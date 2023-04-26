@@ -33,43 +33,43 @@ Visit [the Go home page](https://golang.org/).
 
 Using `.code /^func main/,/^}/` with highlight in .go file
 
-.code ../first/first.go /^func main/,/^}/
+.code ../hello/hello.go /^func main/,/^}/
 
 ## Slide 4 - Code highlight
 
 Using `.code /^//START/,/^//END/ HL12` with highlight in .go file
 
-.code ../first/first.go /^//START/,/^//END/ HL12
+.code ../hello/hello.go /^//START/,/^//END/ HL12
 
 ## Slide 5 - Code editable
 
 Using `.code -edit /^//START/,/^//END/ HL12` with highlight in .go file
 
-.code -edit ../first/first.go /^//START/,/^//END/ HL12
+.code -edit ../hello/hello.go /^//START/,/^//END/ HL12
 
 ## Slide 6 - Code numbers
 
 Using `.code -numbers /^//START/,/^//END/ HL12` with highlight in .go file
 
-.code -numbers ../first/first.go /^//START/,/^//END/ HL12
+.code -numbers ../hello/hello.go /^//START/,/^//END/ HL12
 
 ## Slide 7 - Play
 
 `using .play /^func main/,/^}/'
 
-.play ../first/first.go /^func main/,/^}/
+.play ../hello/hello.go /^func main/,/^}/
 
 ## Slide 8 - Play editable
 
 `using .play -edit /^func main/,/^}/'
 
-.play -edit ../first/first.go /^func main/,/^}/
+.play -edit ../hello/hello.go /^func main/,/^}/
 
 ## Slide 9 - Play numbers
 
 `using .play -numbers /^func main/,/^}/'
 
-.play -numbers ../first/first.go /^func main/,/^}/
+.play -numbers ../hello/hello.go /^func main/,/^}/
 
 ## Slide 10 - Link
 
