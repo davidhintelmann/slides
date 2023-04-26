@@ -23,7 +23,9 @@ And follow the [offical installation instructions](https://go.dev/doc/install)
 
 Now you can download and install the present tool in one step
 
-    go install golang.org/x/tools/cmd/present@latest
+```
+go install golang.org/x/tools/cmd/present@latest
+```
 
 You can go to your directory with .slide file written in markdown to create a slide deck to showcase go lang
 
@@ -35,8 +37,10 @@ For example the `present.slide` is using legacy present syntax and `present_loca
 
 The syntax for URLs is:
 
-   https://go-talks.appspot.com/github.com/owner/project/file.slide
-   https://go-talks.appspot.com/github.com/owner/project/sub/directory/file.slide
+```
+https://go-talks.appspot.com/github.com/owner/project/file.slide
+https://go-talks.appspot.com/github.com/owner/project/sub/directory/file.slide
+```   
 
 The supported file extensions (.ext) are .slide and .article but the .html command is not supported
 
@@ -44,11 +48,15 @@ The supported file extensions (.ext) are .slide and .article but the .html comma
 
 You can present the `present.slide`, from this repo, by pasting the link below into your browser
 
-  https://go-talks.appspot.com/github.com/davidhintelmann/slides/present.slide
+```
+https://go-talks.appspot.com/github.com/davidhintelmann/slides/present.slide
+```
 
 or the `golangbasics.slide`
 
-  https://go-talks.appspot.com/github.com/davidhintelmann/slides/golangbasics.slide
+ ```
+https://go-talks.appspot.com/github.com/davidhintelmann/slides/golangbasics.slide
+```
 
 ## Override Style
 
