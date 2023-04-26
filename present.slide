@@ -42,18 +42,6 @@ _Why use scoped\_ptr_? Use plain **\*ptr** instead.
 
 Visit [the Go home page](https://golang.org/).
 
-## Another slide - Failure
-
-some text
-
-### Heading
-
-more text
-
-#### Heading One
-
-even more text
-
 ## Test present command invocations - with LN
 
 Using command `.play -numbers`
