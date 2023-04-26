@@ -1,9 +1,6 @@
 # Title of Talk
 Subtitle of Talk
 24 Apr 2023
-Tags: foo, bar, baz
-Summary: This is a great document you want to read.
-OldURL: former-path-for-this-doc
 
 David Hintelmann
 davidhin@mac.com
@@ -89,7 +86,7 @@ Using command `.code -numbers`
 
 .code -numbers hello/hello.go
 
-: Presenter notes (first paragraph) sdhgskdjhgksljdhgksdjlhgksdljghksdjlghskdljfghsdkjflghsdkjgh
+: Presenter notes (first paragraph)
 : Presenter notes (second paragraph)
 
 ## Image - Resized

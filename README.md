@@ -7,7 +7,7 @@ A few things to note about this directory:
 - the present.slide and legacy.slide is taken from go lang's present tool website and slightly modified
 - hello directory has a simple hello world script written in go and this is used in a few of the slide presentations
 - slide directory has one more example to show how to override the default stylesheet to modify pagenumber order & colour
-  - see below under **Override Style**
+  - presenting this directory requires Option 1, see below under **Override Style**
 
 ## Installation
 
@@ -48,4 +48,6 @@ or the `golangbasics.slide`
 
   https://go-talks.appspot.com/github.com/davidhintelmann/slides/golangbasics.slide
 
-Override Style
+## Override Style
+
+Since [go-talks.appspot.com](https://go-talks.appspot.com) can not use .html present command invocations you will have to present the slide directory from a local environment i.e. Option 1 above.
