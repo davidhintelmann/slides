@@ -1,6 +1,9 @@
 # Title of Talk
 Subtitle of Talk
 24 Apr 2023
+Tags: foo, bar, baz
+Summary: This is a great document you want to read.
+OldURL: former-path-for-this-doc
 
 David Hintelmann
 davidhin@mac.com
@@ -38,6 +41,18 @@ Markup-_especially italic text_- can easily be overused.
 _Why use scoped\_ptr_? Use plain **\*ptr** instead.
 
 Visit [the Go home page](https://golang.org/).
+
+## Another slide - Failure
+
+some text
+
+### Heading
+
+more text
+
+#### Heading One
+
+even more text
 
 ## Test present command invocations - with LN
 
@@ -86,7 +101,7 @@ Using command `.code -numbers`
 
 .code -numbers hello/hello.go
 
-: Presenter notes (first paragraph)
+: Presenter notes (first paragraph) sdhgskdjhgksljdhgksdjlhgksdljghksdjlghskdljfghsdkjflghsdkjgh
 : Presenter notes (second paragraph)
 
 ## Image - Resized
