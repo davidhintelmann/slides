@@ -1,0 +1,135 @@
+# Slide Deck Title
+Subtitle of Deck
+24 Apr 2023
+
+David Hintelmann
+davidhin@mac.com
+https://Github.com/davidhintelmann
+
+## Slide 1
+
+*italic*
+
+**bold**
+
+***bold and italic***
+
+list:
+- item 1
+- item 2
+- item 3
+
+code block
+
+    here is the block
+
+## Slide 2
+
+`program`
+
+Visit [the Go home page](https://golang.org/).
+
+## Slide 3 - Present Command Invocations
+
+Using `.code /^func main/,/^}/` with highlight in .go file
+
+.code ../first/first.go /^func main/,/^}/
+
+## Slide 4 - Code highlight
+
+Using `.code /^//START/,/^//END/ HL12` with highlight in .go file
+
+.code ../first/first.go /^//START/,/^//END/ HL12
+
+## Slide 5 - Code editable
+
+Using `.code -edit /^//START/,/^//END/ HL12` with highlight in .go file
+
+.code -edit ../first/first.go /^//START/,/^//END/ HL12
+
+## Slide 6 - Code numbers
+
+Using `.code -numbers /^//START/,/^//END/ HL12` with highlight in .go file
+
+.code -numbers ../first/first.go /^//START/,/^//END/ HL12
+
+## Slide 7 - Play
+
+`using .play /^func main/,/^}/'
+
+.play ../first/first.go /^func main/,/^}/
+
+## Slide 8 - Play editable
+
+`using .play -edit /^func main/,/^}/'
+
+.play -edit ../first/first.go /^func main/,/^}/
+
+## Slide 9 - Play numbers
+
+`using .play -numbers /^func main/,/^}/'
+
+.play -numbers ../first/first.go /^func main/,/^}/
+
+## Slide 10 - Link
+
+.link https://www.google.ca Google.ca
+
+## Slide 11 - Image original
+
+`.image Golang-Logo.jpg `
+
+.image Golang-Logo.jpg
+
+.caption _Gopher_ by [[https://instagram.com/reneefrench][Renee French]]
+
+## Slide 12 - Image change size
+
+`.image Golang-Logo.jpg 275 229`
+
+.image Golang-Logo.jpg 275 229
+
+.caption _Gopher_ by [[https://instagram.com/reneefrench][Renee French]]
+
+## Slide 13 - Image keep aspect ratio
+
+`.image Golang-Logo.jpg 275 _`
+
+.image Golang-Logo.jpg 275 _
+
+.caption _Gopher_ by [[https://instagram.com/reneefrench][Renee French]]
+
+## Slide 14 - HTML
+
+.html sample.html
+
+## Slide 15 -  Rebase a feature branch
+
+Rebase will sequentially take the commits from `feature` and reapply them to `master`:
+
+	language:none
+	         A---B---C feature
+	        /
+	   D---E---F---G master
+
+will become
+
+	language:none
+	                 A'--B'--C' feature
+	                /
+	   D---E---F---G master
+
+## References
+
+- [golang FAQs](https://golang.org/doc/faq)
+- [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [The Evolution of Go](https://talks.golang.org/2015/gophercon-goevolution.slide)
+- [More Info](https://talks.golang.org/2012/zen.slide)
+- [Talk: A Tour of Go](https://www.youtube.com/watch?v=ytEkHepK08c)
+- [Github: ANZ-BANK](https://github.com/anz-bank/go-slides/tree/master/content)
+- [Github: drashtived03](https://github.com/drashtived03)
+
+: Speaker notes - blah blah blah
+: Speak notes - Add CSS & JS
+
+.html pagenumbers.html

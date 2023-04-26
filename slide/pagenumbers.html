@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            // var elements = document.getElementsByClassName('pagenumber');
+            // // console.log(elements)
+            // // console.log(elements.length);
+            // for (let i=0; i<=elements.length-1; i++) {
+            //     console.log(`Before: ${elements[i].innerHTML}`);
+            //     elements[i].innerHTML = Number(elements[i].innerHTML) - 1;
+            //     console.log(`After: ${elements[i].innerHTML}`);
+            //     // console.log(document.getElementsByTagName('h3'))
+            //     // let allChildren = parentElement.querySelectorAll(":scope > span");
+            //     // allChildren.forEach((item) => console.log(item));
+            
+            // }
+            // var parentElement = document.querySelectorAll("body");
+            // var childElement = parentElement.item(0).querySelectorAll("article").item(parentElement.length);
+            // // var reference = document.getElementsByTagName('h3').item([reference.length-1])
+            // console.log(childElement);
+
+            async function fixPageNumbers() {
+                var elements = await document.getElementsByClassName('pagenumber');
+
+                for (let i=0; i<=(elements.length-1); i++) {
+                    elements[i].innerHTML = await elements[i].innerHTML - 1;
+                }
+                var parentElement = await document.querySelectorAll("section");
+                // console.log(parentElement)
+                var childElement = await parentElement[0].querySelectorAll("article")[16];//.item(parentElement.length-1);
+                var pageNumElement = await childElement.querySelectorAll("span.pagenumber");//.item(parentElement.length-1);
+                var pageNumElement = await document.querySelectorAll("span.pagenumber");
+                await console.log(pageNumElement);
+            }
+
+            fixPageNumbers()
+        </script>
+    </head>
+</html>

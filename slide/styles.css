@@ -1,0 +1,8 @@
+span.pagenumber {
+    color: #616161;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding-right:10px;
+    font-size: 80%;
+  }
