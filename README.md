@@ -29,7 +29,9 @@ You can go to your directory with .slide file written in markdown to create a sl
 
 ### Option 2
 
-[go-talks.appspot.com](https://go-talks.appspot.com/) site plays slide presentations and articles stored on GitHub in the present format
+[go-talks.appspot.com](https://go-talks.appspot.com/) site plays slide presentations and articles stored on GitHub in the legacy present format, find more about this on [present](https://pkg.go.dev/golang.org/x/tools/present) docs. This means if you want to use this option the markdown must use * as slide titles and not #
+
+For example the `present.slide` is using legacy present syntax and `present_local.slide` is using markdown syntax.
 
 The syntax for URLs is:
 

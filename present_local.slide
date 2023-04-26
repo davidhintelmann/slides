@@ -7,7 +7,7 @@ davidhin@mac.com
 example.com
 @twitter_name
 
-* Title of Slide or Section (must begin with *)
+## Title of Slide or Section (must begin with ##)
 
 Some Text
 - bullets
@@ -22,19 +22,21 @@ Some More text
 
 Further Text, including command invocations.
 
-* Section 2: Example formatting
+## Section 2: Example formatting {#fmt}
 
 Formatting:
 
 _italic_
-*bold*
+// A comment that is completely ignored.
+: Speaker notes.
+**bold**
 `program`
-Markup-_especially_italic_text_-can easily be overused.
-_Why_use_scoped__ptr_? Use plain ***ptr* instead.
+Markup-_especially italic text_- can easily be overused.
+_Why use scoped\_ptr_? Use plain **\*ptr** instead.
 
 Visit [the Go home page](https://golang.org/).
 
-* Test present command invocations - with LN
+## Test present command invocations - with LN
 
 Using command `.play -numbers`
 
@@ -42,7 +44,7 @@ Using command `.play -numbers`
 
 .play -numbers hello/hello.go
 
-* Test present command invocations - Full Code
+## Test present command invocations - Full Code
 
 Using command `.code`
 
@@ -50,13 +52,13 @@ Using command `.code`
 
 .code hello/hello.go
 
-8 Test present command invocations - Partial Code
+## Test present command invocations - Partial Code
 
 *hello.go*
 
 .code hello/hello.go /^//START/,/^//END/ HL12
 
-* Test present command invocations - Editable
+## Test present command invocations - Editable
 
 Using command `.code -edit`
 
@@ -64,7 +66,7 @@ Using command `.code -edit`
 
 .code -edit hello/hello.go
 
-* Test present command invocations - Line Numbers
+## Test present command invocations - Line Numbers
 
 Using command `.code -numbers`
 
@@ -72,7 +74,7 @@ Using command `.code -numbers`
 
 .code -numbers hello/hello.go
 
-* ...continued - same as last slide but now with background image
+## ...continued - same as last slide but now with background image
 
 .background Golang-Logo.jpg
 Using command `.code -numbers`
@@ -84,7 +86,7 @@ Using command `.code -numbers`
 : Presenter notes (first paragraph)
 : Presenter notes (second paragraph)
 
-* Image - Resized
+## Image - Resized
 
 `.image Golang-Logo.jpg 275 229`
 
@@ -92,7 +94,7 @@ Using command `.code -numbers`
 
 .caption _Gopher_ by [[https://instagram.com/reneefrench][Renee French]]
 
-* Image - Aspect Ratio
+## Image - Aspect Ratio
 
 `.image Golang-Logo.jpg 275 _`
 
@@ -100,7 +102,7 @@ Using command `.code -numbers`
 
 .caption _Gopher_ by [[https://instagram.com/reneefrench][Renee French]]
 
-* Image - Push Image to Bottom
+## Image - Push Image to Bottom
 
 Create a list to force the gopher to the bottom:
 
