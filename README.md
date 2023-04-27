@@ -12,7 +12,7 @@ A few things to note about this directory:
 ## Installation
 
 To use go lang's present tool you can use either option 1 or 2:
-1. install go lang and the necessary tools 
+1. install go lang and the necessary present tool
 2. use [go-talks.appspot.com](https://go-talks.appspot.com/)
 
 ### Option 1
@@ -24,14 +24,22 @@ And follow the [offical installation instructions](https://go.dev/doc/install)
 Now you can download and install the present tool in one step
 
 ```
-go install golang.org/x/tools/cmd/present@latest
+$ go install golang.org/x/tools/cmd/present@latest
 ```
 
-You can go to your directory with .slide file written in markdown to create a slide deck to showcase go lang
+You can go to your directory with .slide/.article file(s) written in markdown to create a slide deck to showcase go lang.
+
+After moving to your directory start a session to view your slides through a browser
+
+```
+$ present
+```
+
+go to `http://127.0.0.1:3999` (default) on your favourite browser
 
 ### Option 2
 
-[go-talks.appspot.com](https://go-talks.appspot.com/) site plays slide presentations and articles stored on GitHub in the legacy present format, find more about this on [present](https://pkg.go.dev/golang.org/x/tools/present) docs. This means if you want to use this option the markdown must use * as slide titles and not #. Also markdown links must be modified.
+[go-talks.appspot.com](https://go-talks.appspot.com/) site plays slide presentations and articles stored on GitHub in the legacy present format, find more about this on [present](https://pkg.go.dev/golang.org/x/tools/present) docs. This means if you want to use this option the markdown you must use * as slide titles and not #. Also markdown links must be modified.
 
 For example the `present.slide` is using legacy present syntax and `present_local.slide` is using markdown syntax.
 
